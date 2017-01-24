@@ -66,7 +66,7 @@ The only file you need to edit is the config.cfg. Right click and open with a te
 
 
 ```
-cd adidas_monitor
+cd Adidas_monitor-master
 ```
 
 2) Activate virtualenv (Copy and paste into terminal)
