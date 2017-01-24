@@ -17,14 +17,14 @@ pip install virtualenv
 
 **3)** Rename the folder to 
 ```
-'adidas_monitor'
+'Adidas_monitor-master'
 ```
 if it isn't already
 
 **4)** Open up a terminal and type
 
 ```
-   cd adidas_monitor
+   cd Adidas_monitor-master
 ```
 
 **5)** Create the virtual environment (Only needs to be done once per install):
