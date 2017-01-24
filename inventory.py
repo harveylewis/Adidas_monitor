@@ -1,11 +1,11 @@
 import requests, json, ConfigParser, os, collections
-from utils import *
+from colours import *
 
 
 
 PROJECT_ROOT_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__, os.pardir)))
 c = ConfigParser.ConfigParser()
-configFilePath = os.path.join(PROJECT_ROOT_DIR + '/stockmonitor', 'config.cfg')
+configFilePath = os.path.join(PROJECT_ROOT_DIR + '/adidas_monitor-master', 'config.cfg')
 c.read(configFilePath)
  
 sku = c.get("Preferences", "Item_Sku")
